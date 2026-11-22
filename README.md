@@ -10,38 +10,47 @@ To create a 3D model from given orthographic projection.
 4. 2.5 Mbps or faster download; 500 Kbps or faster upload 
 
 ## PROCEDURE:
-1.	Open new file and then select sketch icon.
-2.	Select the plane for sketching. 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
-3.	Use sketching features (line, circle, arc, rectangle, polygon, etc.,) to draw the given sketch.
+1. Create a New Design
+Open Autodesk Fusion 360 and create a new design. From the Design workspace, select Create Sketch.
+<img width="237" height="482" alt="Screenshot 2026-11-13 210155" src="https://github.com/user-attachments/assets/8ac32db3-74d4-4ba0-9cfb-c2c31c7a7179" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823371-bacc7928-28aa-45dd-a652-8833f95e3ea9.png)
+2. Select the Sketching Plane
+Choose a plane that matches the orientation of the reference drawing. This will be the working plane for the bracket’s main profile.
 
-4.	Use sketch modifying features (cut, trim, mirror, move, etc.,) to edit the sketch.
+3. Create the Semicylindrical Body
+Start a sketch on the selected plane.
+Draw the semicircular profile for the curved body, using the radius and length from the drawing.
+Close the profile along its flat side.
+Select Finish Sketch, then use Extrude to create the body to the specified length.
 
-![image](https://user-images.githubusercontent.com/113594316/198823384-c72c4c0f-9650-48db-b7da-697a0f22886b.png)
+4. Add the Mounting Tabs
+Select a suitable face or plane at each end of the curved body and start a sketch.
+Draw the rounded mounting tabs, positioning them to match the reference drawing.
+Dimension the tabs using the drawing.
+Extrude them to the required thickness, with the operation set to Join.
 
-5.	Use inspect feature to measure the dimensions of sketch.
+5. Create the Mounting Holes
+Start a sketch on the flat face of one mounting tab.
+Draw and dimension the hole at the location shown in the drawing.
+Use Extrude > Cut and select Through All.
+Repeat for the other tab, or mirror the hole feature if the tabs are symmetrical.6
+<img width="311" height="417" alt="Screenshot 2026-11-13 210611" src="https://github.com/user-attachments/assets/ef692db5-2c44-4ad8-8014-6a8b7dce160a" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823390-0832a221-257e-439f-99b4-1a8beca74b56.png)
+6. Add the Hole on the Curved Body
+Create a sketching plane tangent to the curved surface, at the location shown in the drawing.
+Draw and dimension the small hole.
+Use Extrude > Cut to make the hole to the specified depth or through the body, as indicated in the drawing.
 
-6.	After finishing the sketch use finish sketch option to finalize the sketch.
+7. Finish the Model
+Add any fillets or chamfers shown in the reference drawing. Check the model in isometric, front, and top views, then save the design with an appropriate project name.
+<img width="364" height="173" alt="Screenshot 2026-11-09 171520" src="https://github.com/user-attachments/assets/860d6cce-8e60-41b1-805d-342628a4479b" />
 
-![image](https://user-images.githubusercontent.com/113594316/198823401-1b79c82e-7665-4874-8135-52cbce3bb50d.png)
-
-7.	Use extrude option to convert 3D model from sketch
-
-![image](https://user-images.githubusercontent.com/113594316/198823408-d3d678f1-2247-41a2-abdd-b9a8918daef8.png)
-
-
-8.	After finishing the model convert to drawing sheet per  ISO standard.
-
-![image](https://user-images.githubusercontent.com/113594316/198823415-9d0a9454-b197-44bf-b90f-179c75602500.png)
 
 ## INPUT:
 ![image](https://user-images.githubusercontent.com/113594316/198823540-38a1b79a-1f68-4876-add9-adf59b98b386.png)
 
 ## OUTPUT:
+<img width="991" height="710" alt="Screenshot 2026-11-22 123051" src="https://github.com/user-attachments/assets/4e1c1147-d0d5-4843-a281-67ab60a7481a" />
 
 ## RESULT:
 Thus, 3D model is created from orthographic projection.
